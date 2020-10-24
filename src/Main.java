@@ -3,7 +3,7 @@ public class Main {
   public static void main(String... args) {
 
 
-//    System.out.println("Hello World!");
+    System.out.println("Hello World!");
 
     /*
     JRE - Java Runtime Environment
@@ -29,7 +29,7 @@ public class Main {
       - Whole Numbers: byte, short, int, long (654654)
       - Decimal Numbers: float, double (1.26566)
       - Character: char ('a', etc)
-      - Binary: boolean (true/false0
+      - Boolean: boolean (true/false)
      */
 
 //    float first = 80;
