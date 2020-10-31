@@ -1,5 +1,7 @@
 package oop;
 
+import schoolmanagementsystem.Student;
+
 public class StudentMarks {
 
   public String name;
@@ -8,6 +10,10 @@ public class StudentMarks {
   public int math;
 
   public void processMarks() {
+
+    Student s = new Student();
+    s.name = "abc";
+
 
     int totalMarks = english + urdu + math;
     int percentage = totalMarks * 100 / 300;
